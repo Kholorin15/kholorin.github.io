@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background-color: #C5D3DC;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#texto{
+    font-size: 20px;
+}
+
+
+#inicio{
+    text-align: justify;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#parte2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+footer{
+    background-color: #8F9192;
+}
+
+#formu{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#redes{
+    padding-top: 125px;
+}
+
+.ico li {
+	list-style: none;
+	display: inline-block;
+} 
+
+.ico li a {
+	padding-right: 5px;
+} 
+
+
+

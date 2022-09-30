@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizon</title>
+</head>
+<link rel="icon" href="img/icons8-natación-96.png">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/estilos.css">
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #0097FF"" >
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"></a>
+                    <img src="img/icons8-natación-96.png" alt="" width="100" height="75">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white me-4" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white me-4" href="estilos.html">Estilos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white me-4" href="reglamento.html" >Reglamento</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white me-4" href="#" >Consultas</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <br><br><br><br><br>
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h1>Dudas y Consultas</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <p class="mt-3">
+              Quisimos agregar esta seccion para que ustedes los espectadores pudieran realizarnos algunas dudas o consultas
+              respectivas al deporte de la natacion, se mostrara un formulario y a su vez algunas redes sociales de expertos.
+            </p>
+          </div>
+        </div>
+        <div id="formu" class="row">
+            <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nya" class="form-label"><b>Nombre y Apellido</b></label>
+                            <input type="text" class="form-control" id="nya" aria-describedby="nyaHelp" required>
+                            <div id="nyaHelp" class="form-text text-black-50">Ejemplo: Caeleb Dressel</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label"><b>Correo Electronico</b></label>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+                            <div id="emailHelp" class="form-text text-black-50">Ejemplo: nombrel@Ejemplo.com</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="asunto" class="form-label"><b>Asunto</b></label>
+                            <input type="text" class="form-control" id="asunto" aria-describedby="asuntoHelp" required>
+                            <div id="asutoHelp" class="form-text tex-black-50">Ejemplo: Consulta de brazadas mariposa</div>
+
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label"><b>Mensaje</b></label>
+                            <textarea class="form-control" id="mensaje" rows="3" required></textarea>               
+                        </div>
+                        <button type="submit" class="btn btn-dark ">Aceptar</button>
+                      </form>
+
+            </div>
+            <div class="col-md-6">
+                <div  id="redes" class="row">
+                    <center>
+                        <h3>Redes Sociales</h3>
+                    </center>
+                    <br>
+                    <br>
+                    <center>
+                        <ul class="ico">
+                            <li>
+                                <a href="https://www.facebook.com/natacionskillsnt/" target="_blank">
+                                    <img src="img/icons8-facebook-nuevo-30.png" alt="" height="30px" width="30px" >
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/SkillsNTalent" target="_blank">
+                                    <img src="img/icons8-twitter-30.png" alt="" height="30px" width="30px" >
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/c/Nataci%C3%B3nSkillsNT" target="_blank">
+                                    <img src="img/icons8-youtube-play-64.png" alt="" height="30px" width="30px" >
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/natacionskillsnt/" target="_blank">
+                                    <img src="img/icons8-instagram-32.png" alt="" height="30px" width="30px" >
+                                </a>
+                            </li>
+                        </ul>
+                    </center>
+                </div>
+            </div>
+    </div>
+    <br>
+    <br>
+
+    <footer class="footer mt-auto py-3 text-center">
+        <div class="container">
+          <span >Sitio no Oficial de Natacion</span>
+          <br>
+          <span id="hora""></span>
+        </div>
+    </footer>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/animaciones.js"></script> 
+</body>
+</html>
